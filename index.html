@@ -3,136 +3,294 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The Local Thai homepage concept for visitor-focused cafe and restaurant discovery in Paignton.">
+    <meta name="description" content="The Local Thai is a Thai restaurant and takeaway at 75 Torbay Road, Paignton, serving authentic Thai dishes, collection offers, delivery, and evening service near Paignton entertainment venues.">
+    <meta property="og:title" content="The Local Thai | Paignton">
+    <meta property="og:description" content="Authentic Thai cooking on Torbay Road, Paignton, with evening service, collection, delivery, and a 5 Food Hygiene Rating.">
+    <meta property="og:image" content="https://vyvyc.github.io/The-Local-Thai-Paignton/assets/local-thai-shopfront.jpg">
     <title>The Local Thai | Paignton</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%232f6f73'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='34' font-family='Georgia' fill='white'%3ET%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" href="assets/local-thai-logo.png">
+    <link rel="preload" href="assets/local-thai-shopfront.jpg" as="image">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <header class="site-header">
       <a class="brand" href="#home" aria-label="The Local Thai home">
-        <span class="brand-mark">T</span>
+        <img src="assets/local-thai-logo.png" alt="" width="42" height="42">
         <span>
-          <span class="brand-kicker">Thai restaurant</span>
+          <span class="brand-note">Thai restaurant - Paignton</span>
           <span class="brand-name">The Local Thai</span>
         </span>
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#home" aria-current="page">Home</a>
-        <a href="#menu">What to show</a>
-        <a href="#visit">Visit</a>
-        <a href="#contact">Contact</a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home" aria-current="page">The Thai</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#visit">Visit</a></li>
+          <li><a href="https://thelocalthai.uk/takeaways/Torqauy/TQ4/the-local-thai/menu" target="_blank" rel="noopener">Order</a></li>
+        </ul>
       </nav>
     </header>
 
-    <main id="main">
-      <section class="hero" id="home">
-        <div class="hero-photo" aria-hidden="true">
-          <div class="visual-card visual-card-main">
-            <span>Paignton</span>
-            <strong>The Local Thai</strong>
-          </div>
-          <div class="visual-card visual-card-side">
-            <span>Menu</span>
-            <strong>Thai restaurant</strong>
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title" data-hero>
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/local-thai-shopfront.jpg" alt="">
+        </div>
+
+        <div class="hero-inner">
+          <p class="kicker" data-reveal>75 Torbay Road - Paignton - TQ4 6AJ</p>
+          <h1 id="hero-title" data-reveal>
+            Thai cooking.<br>
+            Torbay Road.<br>
+            Before the show or after the beach.
+          </h1>
+          <p class="hero-copy" data-reveal>
+            Authentic Thai dishes prepared by chefs trained in Thailand, with restaurant dining, collection, and delivery from the heart of Paignton.
+          </p>
+          <div class="hero-actions" data-reveal>
+            <a class="button primary" href="https://thelocalthai.uk/takeaways/Torqauy/TQ4/the-local-thai/menu" target="_blank" rel="noopener">Order online</a>
+            <a class="button secondary" href="tel:+441803559938">Call 01803 559938</a>
           </div>
         </div>
-        <div class="hero-copy">
-          <p class="eyebrow">Paignton · visitor-ready concept</p>
-          <h1>Thai cooking in Paignton with flavour, colour, and a clear menu story.</h1>
-          <p>A focused one-page concept for The Local Thai, built around what visitors need first: what it is, why to stop, where to go, and how to check the latest details.</p>
-          <div class="hero-actions">
-            <a class="button primary" href="#visit">Plan a visit</a>
-            <a class="button secondary" href="mailto:localthaipaignton@gmail.com">Email the team</a>
-          </div>
-        </div>
-        <aside class="proof-panel" aria-label="Concept focus">
-          <span>Concept focus</span>
-          <strong>Authentic Thai cuisine; Facebook contact confirms email</strong>
+
+        <aside class="hero-strip" aria-label="Quick visit details">
+          <a href="#visit">
+            <span>Find us</span>
+            <strong>75 Torbay Road, Paignton</strong>
+          </a>
+          <a href="#hours">
+            <span>Open</span>
+            <strong>Evenings, Monday and Wednesday to Sunday</strong>
+          </a>
+          <a href="#offers">
+            <span>Offer</span>
+            <strong>10% off collection on the whole menu</strong>
+          </a>
+          <a href="#hygiene">
+            <span>FHRS</span>
+            <strong>5 rating, inspected 9 March 2026</strong>
+          </a>
         </aside>
       </section>
 
-      <section class="intro section-shell">
-        <div>
-          <p class="eyebrow">Why this first screen</p>
-          <h2>A sharper online welcome for people choosing where to stop today.</h2>
-        </div>
-        <p>
-          This demo is built for a small independent business that needs the essentials to work quickly on mobile:
-          a strong first image, a clear reason to visit, visible contact details, and enough local context to help
-          tourists decide without digging through directories.
-        </p>
-      </section>
+      <section class="story-section section-shell" id="story" aria-labelledby="story-title">
+        <div class="story-layout">
+          <figure class="story-image motion-card" data-reveal>
+            <img src="assets/local-thai-platter.jpg" alt="Thai starter platter from The Local Thai public gallery" width="700" height="423">
+          </figure>
 
-      <section class="menu section-shell" id="menu">
-        <div class="section-heading">
-          <p class="eyebrow">Home page content</p>
-          <h2>Lead with the details that make The Local Thai easier to choose.</h2>
-        </div>
-        <div class="feature-grid">
-          <article>
-            <span>01</span>
-            <h3>Food and drink first</h3>
-            <p>Use a compact menu preview, real product photos, and daily or seasonal notes instead of making visitors hunt on social media.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>Local proof</h3>
-            <p>Make the Paignton setting part of the story, with directions, nearby landmarks, and a clear mobile map prompt.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>Quick contact</h3>
-            <p>Keep the public email, latest channels, and opening caveats visible so the page feels useful rather than decorative.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="visit" id="visit">
-        <div class="section-shell visit-grid">
-          <div>
-            <p class="eyebrow">Visit signal</p>
-            <h2>The Local Thai should be findable before a visitor reaches the street.</h2>
-            <ul class="visit-list">
-              <li>menu-led dining story</li>
-              <li>booking and opening prompts</li>
-              <li>strong food-led first screen</li>
+          <div class="story-copy" data-reveal>
+            <p class="fine-label">The restaurant</p>
+            <h2 id="story-title">A Thai dinner stop close to Paignton's evening venues.</h2>
+            <p>
+              English Riviera describes The Local Thai as serving authentic Thai cuisine prepared by experienced chefs who trained in Thailand, in modern Thai-style surroundings. The listing places it near The Vue cinema complex, The Spinning Wheel, and other entertainment venues.
+            </p>
+            <ul class="feature-list" aria-label="The Local Thai highlights">
+              <li>Restaurant, collection, and delivery service.</li>
+              <li>Large menu across starters, soup, salad, curry, stir-fry, beef, duck, seafood, noodles, rice, and desserts.</li>
+              <li>Public online ordering with delivery fee and minimum delivery details.</li>
+              <li>Food Hygiene Rating 5, inspected 9 March 2026.</li>
             </ul>
           </div>
-          <div class="map-card">
-            <span>Paignton Devon</span>
-            <strong>The Local Thai</strong>
-            <p>Replace this concept panel with a live Google map, fresh exterior photo, and current opening hours once the business confirms final details.</p>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu" aria-labelledby="menu-title">
+        <div class="section-shell">
+          <div class="section-heading" data-reveal>
+            <p class="fine-label">Menu shape</p>
+            <h2 id="menu-title">A wide Thai menu, easy to scan before guests order.</h2>
+            <p>
+              These are representative dishes from the current public online menu. Prices and availability should be checked on the live ordering page.
+            </p>
+          </div>
+
+          <div class="menu-board motion-card" data-reveal>
+            <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+              <button class="menu-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="starters-panel" id="starters-tab" data-menu-tab="starters">Starters</button>
+              <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="curries-panel" id="curries-tab" data-menu-tab="curries">Curries</button>
+              <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="signature-panel" id="signature-tab" data-menu-tab="signature">Signature</button>
+              <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="desserts-panel" id="desserts-tab" data-menu-tab="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-panels">
+              <article class="menu-panel is-active" id="starters-panel" role="tabpanel" aria-labelledby="starters-tab" data-menu-panel="starters">
+                <div>
+                  <span>To start</span>
+                  <h3>Crisp, grilled, and shareable Thai starters.</h3>
+                  <p>The menu has individual starters plus mixed platters for two people.</p>
+                </div>
+                <ul>
+                  <li><strong>Mixed Platter for 2</strong><span>Chicken satay, spring rolls, pork dumplings, salt and pepper squid - GBP 17.00</span></li>
+                  <li><strong>Duck Spring Roll</strong><span>Shredded duck, carrot, leek, celery, Thai pastries, hoisin - GBP 7.95</span></li>
+                  <li><strong>Chicken Satay</strong><span>Grilled marinated chicken skewer with peanut sauce - GBP 7.95</span></li>
+                  <li><strong>Vegetable Tempura</strong><span>Mixed vegetables in crispy batter with sweet chilli - GBP 7.75</span></li>
+                </ul>
+              </article>
+
+              <article class="menu-panel" id="curries-panel" role="tabpanel" aria-labelledby="curries-tab" data-menu-panel="curries" hidden>
+                <div>
+                  <span>Curry house</span>
+                  <h3>Coconut curry, heat markers, and protein choices.</h3>
+                  <p>Many curries can be ordered with vegetables, prawn, beef, or chicken on the public menu.</p>
+                </div>
+                <ul>
+                  <li><strong>Green Curry</strong><span>Coconut milk, green curry paste, bamboo shoots, courgettes, peppers, basil</span></li>
+                  <li><strong>Red Curry</strong><span>Thai red curry base with vegetable, prawn, beef, or chicken options</span></li>
+                  <li><strong>Massaman Curry</strong><span>Coconut milk, Massaman paste, onions, carrots, potatoes, fried shallots, cashew nuts</span></li>
+                  <li><strong>Panaeng Curry</strong><span>Rich Thai curry section dish from the online menu</span></li>
+                </ul>
+              </article>
+
+              <article class="menu-panel" id="signature-panel" role="tabpanel" aria-labelledby="signature-tab" data-menu-panel="signature" hidden>
+                <div>
+                  <span>House dishes</span>
+                  <h3>Sea bass, duck, seafood, and noodles with clear flavour cues.</h3>
+                  <p>The public menu labels several dishes as top dishes and includes heat markers for spicier plates.</p>
+                </div>
+                <ul>
+                  <li><strong>The Local Thai Sea Bass</strong><span>Deep fried sea bass with special Thai sauce, lemongrass, herbs, cashews - GBP 15.95</span></li>
+                  <li><strong>Tamarind Duck</strong><span>Roasted duck breast with tamarind sauce, fried shallots, cashews, coriander - GBP 14.95</span></li>
+                  <li><strong>Crying Beef</strong><span>Chargrilled sirloin on a hot sizzling plate with tamarind sauce - GBP 16.95</span></li>
+                  <li><strong>Pad Thai Noodles</strong><span>Prawn, beef, vegetables, chicken, or king prawn with shell options</span></li>
+                </ul>
+              </article>
+
+              <article class="menu-panel" id="desserts-panel" role="tabpanel" aria-labelledby="desserts-tab" data-menu-panel="desserts" hidden>
+                <div>
+                  <span>Sweet finish</span>
+                  <h3>Homemade pancakes and hot-cold dessert classics.</h3>
+                  <p>The online menu includes a dedicated homemade dessert section.</p>
+                </div>
+                <ul>
+                  <li><strong>Local Thai Pancakes</strong><span>Homemade coconut-filled pancakes with vanilla ice cream - GBP 6.50</span></li>
+                  <li><strong>Cinnamon Pancakes</strong><span>Homemade apple cinnamon filled pancakes with vanilla ice cream - GBP 6.50</span></li>
+                  <li><strong>Deep Fried Ice Cream</strong><span>Breaded vanilla ice cream, quickly fried - GBP 6.50</span></li>
+                  <li><strong>Ice Cream Selection</strong><span>Two scoops of chocolate and vanilla - GBP 5.00</span></li>
+                </ul>
+              </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="audit section-shell">
-        <div>
-          <p class="eyebrow">Observed opportunity</p>
-          <h2>The current online presence leaves value on the table.</h2>
+      <section class="offers-section section-shell" id="offers" aria-labelledby="offers-title">
+        <div class="offers-copy" data-reveal>
+          <p class="fine-label">Useful ordering detail</p>
+          <h2 id="offers-title">Make collection, delivery, and pre-cinema ordering obvious.</h2>
+          <p>
+            The public ordering page advertises 10% off collection across the whole menu, shows a GBP 3.50 delivery fee, and lists a GBP 25.00 minimum delivery.
+          </p>
         </div>
-        <p>Facebook/listing-led presence found; no strong owned website found in search results</p>
+
+        <div class="service-ledger motion-card" data-reveal aria-label="Ordering notes">
+          <div><span>Collection</span><strong>10% off</strong></div>
+          <div><span>Delivery fee</span><strong>GBP 3.50</strong></div>
+          <div><span>Minimum delivery</span><strong>GBP 25.00</strong></div>
+          <div><span>Phone</span><strong><a href="tel:+441803559938">01803 559938</a></strong></div>
+          <div><span>Email</span><strong><a href="mailto:localthaipaignton@gmail.com">localthaipaignton@gmail.com</a></strong></div>
+          <div id="hygiene"><span>FHRS</span><strong>5 rating</strong></div>
+        </div>
       </section>
 
-      <section class="contact" id="contact">
-        <div class="section-shell contact-inner">
-          <div>
-            <p class="eyebrow">Demo handoff</p>
-            <h2>Built as a starting point for a practical EUR 1000 website upgrade.</h2>
-            <p>Medium-high: destination dining/menu clarity supports upgrade case</p>
+      <section class="visit-section" id="visit" aria-labelledby="visit-title">
+        <div class="section-shell visit-layout">
+          <div class="visit-copy" data-reveal>
+            <p class="fine-label">Find us</p>
+            <h2 id="visit-title">On Torbay Road, close to Paignton seafront and evening venues.</h2>
+            <p>
+              Public listings place The Local Thai at 75 Torbay Road, Paignton TQ4 6AJ. The Food Standards Agency geocode places the business at 50.4354324, -3.5614372.
+            </p>
+            <div class="visit-actions">
+              <a class="button primary" href="https://www.google.com/maps/search/?api=1&amp;query=The%20Local%20Thai%2075%20Torbay%20Road%20Paignton%20TQ4%206AJ" target="_blank" rel="noopener">Open Google Maps</a>
+              <a class="button tertiary" href="https://thelocalthai.uk/takeaways/Torqauy/TQ4/the-local-thai/menu" target="_blank" rel="noopener">Open menu</a>
+            </div>
           </div>
-          <a class="button primary" href="mailto:localthaipaignton@gmail.com">localthaipaignton@gmail.com</a>
+
+          <div class="visit-stack">
+            <figure class="map-card motion-card" data-reveal>
+              <div class="map-embed">
+                <iframe
+                  title="Interactive Google map preview for The Local Thai in Paignton"
+                  src="https://www.google.com/maps?q=50.4354324,-3.5614372&amp;z=17&amp;output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <figcaption>
+                Drag or zoom the map to preview the area.
+                <a href="https://www.google.com/maps/search/?api=1&amp;query=The%20Local%20Thai%2075%20Torbay%20Road%20Paignton%20TQ4%206AJ" target="_blank" rel="noopener">Open in Google Maps</a>
+              </figcaption>
+            </figure>
+
+            <aside class="facts-card motion-card" data-reveal aria-label="Visit facts">
+              <dl>
+                <div><dt>Address</dt><dd>75 Torbay Road, Paignton TQ4 6AJ</dd></div>
+                <div><dt>Phone</dt><dd><a href="tel:+441803559938">01803 559938</a></dd></div>
+                <div><dt>Nearby</dt><dd>Vue cinema complex and The Spinning Wheel area</dd></div>
+                <div><dt>Inspection</dt><dd>FHRS 5, 9 March 2026</dd></div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours-section section-shell" id="hours" aria-labelledby="hours-title">
+        <div class="hours-layout">
+          <div class="hours-copy" data-reveal>
+            <p class="fine-label">Current public hours</p>
+            <h2 id="hours-title">Evening opening, with later delivery window.</h2>
+            <p>
+              Hours are taken from the official public ordering site. Confirm directly before travelling or placing a timed order.
+            </p>
+          </div>
+
+          <div class="time-table motion-card" data-reveal>
+            <dl>
+              <div><dt>Monday</dt><dd>Open 17:00-20:30 - delivery to 21:30</dd></div>
+              <div><dt>Tuesday</dt><dd>Not listed on public hours</dd></div>
+              <div><dt>Wednesday</dt><dd>Open 17:00-21:00 - delivery to 21:30</dd></div>
+              <div><dt>Thursday</dt><dd>Open 17:00-21:00 - delivery to 21:30</dd></div>
+              <div><dt>Friday</dt><dd>Open 17:00-21:30 - delivery to 21:30</dd></div>
+              <div><dt>Saturday</dt><dd>Open 17:00-21:30 - delivery to 21:30</dd></div>
+              <div><dt>Sunday</dt><dd>Open 17:00-21:00 - delivery to 21:30</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="section-shell">
+          <div class="section-heading" data-reveal>
+            <p class="fine-label">Gallery</p>
+            <h2 id="gallery-title">Shopfront, platter, and dining room from public listing assets.</h2>
+          </div>
+          <div class="photo-grid" data-reveal>
+            <figure><img src="assets/local-thai-shopfront.jpg" alt="The Local Thai shopfront on Torbay Road, Paignton" width="1024" height="768"></figure>
+            <figure><img src="assets/local-thai-platter.jpg" alt="Thai starter platter from The Local Thai public listing" width="700" height="423"></figure>
+            <figure><img src="assets/local-thai-food-1.jpg" alt="Thai food gallery image from The Local Thai public listing" width="700" height="423"></figure>
+            <figure><img src="assets/local-thai-food-2.jpg" alt="The Local Thai dining room from the public listing" width="700" height="423"></figure>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <div class="section-shell footer-inner">
-        <span>The Local Thai</span>
-        <a href="https://www.englishriviera.co.uk/food-and-drink/the-local-thai-p2935453" target="_blank" rel="noopener">Research source</a>
+        <p>
+          <strong>The Local Thai</strong>
+          <span>Thai restaurant and takeaway on Torbay Road, Paignton.</span>
+        </p>
+        <nav aria-label="Footer links">
+          <a href="https://thelocalthai.uk/" target="_blank" rel="noopener">Official site</a>
+          <a href="https://www.englishriviera.co.uk/food-and-drink/the-local-thai-p2935453" target="_blank" rel="noopener">English Riviera</a>
+          <a href="research/SOURCES.md">Sources</a>
+        </nav>
       </div>
     </footer>
   </body>

@@ -1,18 +1,20 @@
 # The Local Thai
 
-Static homepage concept for The Local Thai in Paignton Devon.
+Static one-page website concept for The Local Thai, 75 Torbay Road, Paignton.
 
 Live demo target: https://vyvyc.github.io/The-Local-Thai-Paignton/
 
-## Source
+## Content Basis
 
-- Primary public source: https://www.englishriviera.co.uk/food-and-drink/the-local-thai-p2935453
-- Public outreach email: localthaipaignton@gmail.com
+- Official ordering site: address, phone, opening hours, delivery hours, offer, and menu items.
+- English Riviera listing: visitor description, food and dining images, nearby venue context.
+- OnTheMarket archive: clear Torbay Road shopfront image.
+- Food Standards Agency: FHRS 5 rating, inspected 2026-03-09.
 
 ## Positioning
 
-Thai cooking in Paignton with flavour, colour, and a clear menu story.
+Authentic Thai restaurant and takeaway on Torbay Road, useful for pre- or post-entertainment meals in Paignton.
 
-## Observed Website Opportunity
+## Implementation
 
-Facebook/listing-led presence found; no strong owned website found in search results
+Plain HTML, CSS, and JavaScript. No build step is required.

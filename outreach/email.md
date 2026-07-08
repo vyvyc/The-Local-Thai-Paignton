@@ -1,15 +1,14 @@
 To: localthaipaignton@gmail.com
-Subject: A quick website idea for The Local Thai
+Subject: A refreshed website idea for The Local Thai
 
 Hi The Local Thai team,
 
-I was looking at independent cafes and restaurants in Paignton and noticed that The Local Thai appears to rely on tourism listing/social, and facebook/listing-led presence found; no strong owned website found in search results. I made a short homepage concept that gives visitors a stronger first screen, clearer map/menu prompts, and a more polished mobile experience.
+I made a short refreshed homepage concept for The Local Thai:
 
-I put together a quick one-page homepage concept here:
 https://vyvyc.github.io/The-Local-Thai-Paignton/
 
-The idea is deliberately practical: a stronger mobile first impression, clear visitor directions, food or menu highlights, and a more polished page that can still stay simple to maintain. For a small business like yours, this kind of upgrade can usually be scoped around a focused EUR 1000 build rather than a large agency project.
+The page keeps the visitor details clear: 75 Torbay Road, phone number, online ordering link, 10% collection offer, delivery details, opening hours, sample menu sections, a draggable Google map, and the Food Hygiene Rating 5 from 9 March 2026. It also uses public shopfront, food, and dining-room images already visible in public listings.
 
-If it is useful, I can adapt the concept with your real photos, current opening hours, menu details, and any booking or social links you prefer.
+The aim is a cleaner mobile-first page that helps visitors decide quickly before a cinema/show meal, takeaway collection, or delivery order. It can be adapted with your preferred images, final menu wording, and any booking or social links you want to prioritise.
 
 Best,

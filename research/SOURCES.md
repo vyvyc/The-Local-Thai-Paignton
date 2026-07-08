@@ -30,7 +30,7 @@ Used for: FHRSID `1826161`, Food Hygiene Rating value `5`, inspection date `2026
 
 ## Local Assets
 
-Downloaded public images:
+The current visible restaurant image files are generated/retouched commercial-style demo assets based on the researched restaurant context and public source material:
 
 - `assets/local-thai-shopfront.jpg` from OnTheMarket property archive
 - `assets/local-thai-platter.jpg` from English Riviera listing
@@ -40,4 +40,4 @@ Downloaded public images:
 - `assets/local-thai-logo.png` from the official ordering site
 - `assets/fhrs-5.png` from the official ordering site
 
-These notes are for a speculative redesign demo. Confirm current menu, opening hours, photography permissions, and commercial use with the business before production use.
+These notes are for a speculative redesign demo. Confirm current menu, opening hours, photography permissions, generated-image approval, and commercial use with the business before production use.

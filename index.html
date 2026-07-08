@@ -10,8 +10,8 @@
     <title>The Local Thai | Paignton</title>
     <link rel="icon" type="image/png" href="assets/local-thai-logo.png">
     <link rel="preload" href="assets/local-thai-shopfront.jpg" as="image">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260709-audit">
+    <script src="script.js?v=20260709-audit" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -216,13 +216,16 @@
             <figure class="map-card motion-card" data-reveal>
               <div class="map-embed">
                 <iframe
+                  data-map-frame
                   title="Interactive Google map preview for The Local Thai in Paignton"
                   src="https://www.google.com/maps?q=50.4354324,-3.5614372&amp;z=17&amp;output=embed"
                   loading="lazy"
+                  allowfullscreen
                   referrerpolicy="no-referrer-when-downgrade"
+                  aria-describedby="thai-map-caption"
                 ></iframe>
               </div>
-              <figcaption>
+              <figcaption id="thai-map-caption">
                 Drag or zoom the map to preview the area.
                 <a href="https://www.google.com/maps/search/?api=1&amp;query=The%20Local%20Thai%2075%20Torbay%20Road%20Paignton%20TQ4%206AJ" target="_blank" rel="noopener">Open in Google Maps</a>
               </figcaption>
